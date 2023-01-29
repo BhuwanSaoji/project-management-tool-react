@@ -1,11 +1,32 @@
-.mainSignUpContainer{
-    display: grid;
-    grid-template-columns:60% 40%;
+.sign_up_card{
+    height:80vh;
+    width:70vw;
+    margin: auto;
+    border-radius: 8px;
+    border:2px solid transparent;
+
     
+    display: grid;
+    justify-content: center;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    grid-template-columns: 60% 40%;
+}
+
+.btn-signup{
+    margin-top: 60px !important;
+}
+.main_signup_container{
+    
+height:100vh;
+width:100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background: url('https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
 }
 .background_signup{
-    background: #60acae;
-    height: 100vh;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgb(96, 172, 174,0.8);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -14,8 +35,8 @@
     
 }
 .details_signup{
-   height: 100vh;
-   
+    border-radius: 8px 0px 0px 8px;
+   background-color: white;
    
 }
 
@@ -23,6 +44,8 @@
     display: block;
     margin: auto;
     color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size:40px;
 
     
     
@@ -32,5 +55,13 @@
     display: block;
     margin: auto;
     color:white;
+    font-family: 'Courier New', Courier, monospace;
     
+    
+}
+
+.btn-signup:hover{
+    background: var(--bg-secondary);
+    cursor:pointer ;
+    transition: 500ms;
 }

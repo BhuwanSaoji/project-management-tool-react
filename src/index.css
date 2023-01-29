@@ -1,9 +1,23 @@
 *{
   margin: 0 !important;
   padding: 0 !important;
+  --bg-secondary: rgba(7, 168, 174);
 }
 
 h1{
   margin: 0 !important;
   padding: 0 !important;
 }
+
+.btn{
+  border-radius: 30px;
+  border:1px solid white;
+  background: transparent;
+  color:white;
+  padding:10px !important;
+  height:50px;
+  width:200px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  font-weight: bold;
+  }
