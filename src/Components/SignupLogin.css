@@ -1,0 +1,33 @@
+.mainSignUpContainer{
+    display: grid;
+    grid-template-columns:60% 40%;
+    
+}
+.background_signup{
+    background: #60acae;
+    height: 100vh;
+   
+    
+    
+}
+.details_signup{
+   height: 100vh;
+   
+   
+}
+
+.background_heading{
+    display: block;
+    margin: auto;
+    color:white;
+
+    
+    
+}
+
+.background_para{
+    display: block;
+    margin: auto;
+    color:white;
+    
+}
