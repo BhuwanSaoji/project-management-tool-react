@@ -4,12 +4,12 @@ import './Login.css';
 const SignupLogin = () => {
 
   function goToLoginPage() {
-    // document.getElementsByClassName('details_login')[0].id= "text_animation_left_to_right";    //setAttribute("id", );
-    // document.getElementsByClassName('form_container')[0].id ="form_container_animation";
-    // document.getElementsByClassName('details_signup')[0].id ="signup_detail_container_animation";
-    // document.getElementsByClassName('content_container')[0].id ="content_container_animation";
-    // document.getElementsByClassName('background_signup')[0].id ="signup_form_container_animation";
-    // document.getElementsByClassName('background_login')[0].id ="login_card_animation";
+    document.getElementsByClassName('details_login')[0].id= "text_animation_left_to_right2";    //setAttribute("id", );
+    document.getElementsByClassName('form_container')[0].id ="form_container_animation2";
+    document.getElementsByClassName('details_signup')[0].id ="signup_detail_container_animation2";
+    document.getElementsByClassName('content_container')[0].id ="content_container_animation2";
+    document.getElementsByClassName('background_signup')[0].id ="signup_form_container_animation2";
+    document.getElementsByClassName('background_login')[0].id ="login_card_animation2";
 
   }
 
@@ -20,8 +20,6 @@ const SignupLogin = () => {
     document.getElementsByClassName('content_container')[0].id = "content_container_animation";
     document.getElementsByClassName('background_signup')[0].id = "signup_form_container_animation";
     document.getElementsByClassName('background_login')[0].id = "login_card_animation";
-
-
 
   }
 

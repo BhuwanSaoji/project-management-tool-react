@@ -68,8 +68,16 @@
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
     animation-play-state: running;
+}
 
 
+#signup_form_container_animation2 {
+    animation-name: signup_container_anim_vis2;
+    animation-delay: 0.75s;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
 }
 
 #signup_detail_container_animation {
@@ -91,7 +99,6 @@
     animation-timing-function: ease-out;
     animation-play-state: running;
 
-
 }
 
 #content_container_animation {
@@ -102,10 +109,6 @@
     animation-timing-function: ease-out;
     animation-play-state: running;
 }
-
-
-
-
 
 #login_card_animation {
     animation-name: login_signup_switch_loginCard;
@@ -337,4 +340,109 @@
     margin-top: 4px !important;
     padding: 5px !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+@keyframes login_signup_switch_loginCard2 {
+    0%{
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes login_signup_switch_loginCard_text2 {
+    0%{
+        transform: translateX(66.5%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes form_container_anim_vis2 {
+    100% {
+        visibility: visible;
+    }
+
+}
+
+@keyframes content_container_anim_vis2 {
+    100% {
+        visibility: visible;
+        position: relative;
+    }
+}
+
+@keyframes signup_container_anim_vis2 {
+    100% {
+
+        visibility: hidden;
+    }
+}
+
+@keyframes signup_detail_container_anim_vis2 {
+    100% {
+        visibility: hidden;
+    }
+}
+
+
+#signup_form_container_animation2 {
+    animation-name: signup_container_anim_vis2;
+    animation-delay: 0.75s;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
+}
+
+
+#signup_form_container_animation2 {
+    animation-name: signup_container_anim_vis2;
+    animation-delay: 0.75s;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
+}
+
+
+#form_container_animation2 {
+
+    animation-name: form_container_anim_vis2;
+    animation-delay: 0.5s;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
+
+}
+
+#content_container_animation2 {
+    animation-name: content_container_anim_vis2;
+    animation-delay: 0.5s;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
+}
+
+#login_card_animation2 {
+    animation-name: login_signup_switch_loginCard2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
+
+}
+
+#text_animation_left_to_right2 {
+    animation-name: login_signup_switch_loginCard_text2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
 }
