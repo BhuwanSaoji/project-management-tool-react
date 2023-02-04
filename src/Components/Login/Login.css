@@ -38,32 +38,31 @@
     100% {
         visibility: hidden;
     }
-        
+
 }
 
 @keyframes content_container_anim_vis {
     100% {
-       visibility: hidden;
+        visibility: hidden;
+        position: absolute;
     }
 }
 
 @keyframes signup_container_anim_vis {
     100% {
-        
+
         visibility: visible;
-        
-        
     }
 }
 
 @keyframes signup_detail_container_anim_vis {
     100% {
-        visibility:visible;
-        
+        visibility: visible;
     }
 }
+
 #signup_form_container_animation {
-    animation-name: signup_container_anim_vis; 
+    animation-name: signup_container_anim_vis;
     animation-delay: 0.75s;
     animation-duration: 0.25s;
     animation-fill-mode: forwards;
@@ -74,7 +73,7 @@
 }
 
 #signup_detail_container_animation {
-   animation-name: signup_detail_container_anim_vis; 
+    animation-name: signup_detail_container_anim_vis;
     animation-delay: 0.75s;
     animation-duration: 0.25s;
     animation-fill-mode: forwards;
@@ -84,8 +83,8 @@
 
 
 #form_container_animation {
-    
-    animation-name: form_container_anim_vis; 
+
+    animation-name: form_container_anim_vis;
     animation-delay: 0.5s;
     animation-duration: 0.25s;
     animation-fill-mode: forwards;
@@ -96,7 +95,7 @@
 }
 
 #content_container_animation {
-    animation-name: content_container_anim_vis; 
+    animation-name: content_container_anim_vis;
     animation-delay: 0.5s;
     animation-duration: 0.25s;
     animation-fill-mode: forwards;
@@ -153,9 +152,9 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
-    width:100%;
-    position: absolute;
-    
+    width: 100%;
+    position: relative;
+
 }
 
 .details_login {
@@ -165,7 +164,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .form_container {
@@ -173,7 +172,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
@@ -267,7 +266,7 @@
     height: 100%;
     width: 100%;
 }
-    
+
 
 
 
@@ -281,7 +280,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    
+
 }
 
 .background_heading {
