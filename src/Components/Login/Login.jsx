@@ -1,5 +1,7 @@
 import React, { useState, useCallback } from 'react'
 import './Login.css';
+import {NotificationManager} from 'react-notifications';
+
 
 const SignupLogin = () => {
 
@@ -23,6 +25,11 @@ const SignupLogin = () => {
 
   }
 
+  function signUp() {
+    
+    NotificationManager.success("Signed Up")
+  }
+
   return (
     <div className='main_login_container'>
       <div className='login_card'>
@@ -39,7 +46,7 @@ const SignupLogin = () => {
             <input type="text" name="name" placeholder='Name' className='name' />
             <input type="email" name="email" placeholder='Email' className='mail' />
             <input type="password" name="password" placeholder='Password' />
-            <button className='btn btn-sign-up'>SIGN UP</button>
+            <button className='btn btn-sign-up' onClick={signUp}>SIGN UP</button>
           </div>
 
         </div>
